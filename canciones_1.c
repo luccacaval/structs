@@ -13,7 +13,7 @@ void print_song(struct cancion item){
 }
 
 int main(void){
-    char buffer;
+    char buffer[100];
     struct cancion item;
     printf("Ingrese el nombre de la cancion\n");
     fgets(buffer, 100, stdin);
